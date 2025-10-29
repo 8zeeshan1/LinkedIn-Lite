@@ -33,4 +33,22 @@ A **MERN-stack social networking web app** where users can register, log in, upl
 ---
 
 ## 🏗️ Folder Structure
+project-root/
+├── backend/
+│ ├── src/
+│ │ ├── models/
+│ │ ├── routes/
+│ │ ├── utils/
+│ │ └── index.js
+│ ├── package.json
+│ └── .env (not pushed)
+│
+└── frontend/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+│ └── main.jsx
+├── package.json
+└── .env (not pushed)
 
