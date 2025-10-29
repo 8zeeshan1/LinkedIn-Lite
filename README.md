@@ -76,7 +76,6 @@ Backend runs on: http://localhost:8000
 
 3️⃣ Setup Frontend
 bash
-Copy code
 cd ../frontend
 npm install
 Create a .env file inside frontend/:
@@ -138,22 +137,3 @@ This project is licensed under the MIT License — free to use, modify, and shar
 🏁 Live Preview
 🌐 Website: https://linkedf.netlify.app/
 📡 API: https://linkedin-lite-grhu.onrender.com/api
-
-yaml
-Copy code
-
----
-
-Would you like me to also add a **short “Project Demo” section** (with placeholders for screenshots or a Loom demo link) so your README looks even better for judges/reviewers?
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
