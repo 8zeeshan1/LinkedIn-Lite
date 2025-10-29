@@ -11,7 +11,23 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 app.use(helmet());
-app.use(cors({ origin: process.env.CLIENT_URL || '*' }));
+
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://linkedf.netlify.app"
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true,
+}));
+
 app.use(express.json());
 
 app.get('/health', (_, res) => res.json({ ok: true }));
