@@ -1,54 +1,51 @@
 # 🌐 LinkedIn-Lite
 
-A **MERN-stack social networking web app** where users can register, log in, upload posts with images, and interact via comments — a lightweight LinkedIn-style platform.
+A **MERN Stack Social Media Web App** inspired by LinkedIn — built with **React (Vite)**, **Node.js**, **Express**, and **MongoDB Atlas**.  
+Users can register, log in, create posts with images, and interact through comments — a lightweight and scalable version of LinkedIn.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- 🧑‍💻 **User Authentication**
-  - Secure signup & login with JWT authentication
-  - Password hashing with bcrypt
-
-- 📸 **Post Management**
-  - Upload posts with image support
-  - Images stored on **AWS S3**
-
-- 💬 **Comments System**
-  - Users can comment on any post
-  - Real-time display of comments
-
-- 🗄️ **Database**
-  - Managed via **MongoDB Atlas**
-
-- ⚙️ **Tech Stack**
-  - **Frontend:** React + Vite + Tailwind CSS  
-  - **Backend:** Node.js + Express.js  
-  - **Database:** MongoDB Atlas  
-  - **Storage:** AWS S3  
-  - **Deployment:**  
-    - Backend → [Render](https://render.com)  
-    - Frontend → [Netlify](https://www.netlify.com)
+🔗 **Frontend (Live Site):** [https://linkedf.netlify.app/](https://linkedf.netlify.app/)  
+🔗 **Backend API:** [https://linkedin-lite-grhu.onrender.com/api](https://linkedin-lite-grhu.onrender.com/api)
 
 ---
 
-## 🏗️ Folder Structure
-project-root/
-├── backend/
-│ ├── src/
-│ │ ├── models/
-│ │ ├── routes/
-│ │ ├── utils/
-│ │ └── index.js
-│ ├── package.json
-│ └── .env (not pushed)
-│
-└── frontend/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.jsx
-│ └── main.jsx
-├── package.json
-└── .env (not pushed)
+## ✨ Features
 
+✅ **User Authentication**
+- Register and login securely using **JWT**
+- Passwords encrypted with **bcrypt**
+
+✅ **Post Creation**
+- Create text posts with optional image uploads
+- Images stored securely in **AWS S3**
+
+✅ **Comments System**
+- Users can comment on posts dynamically
+
+✅ **Cloud Integration**
+- Database hosted on **MongoDB Atlas**
+- Image storage handled by **Amazon S3**
+- Backend hosted on **Render**
+- Frontend hosted on **Netlify**
+
+✅ **Responsive UI**
+- Built with **React + Tailwind CSS**
+- Optimized for both desktop and mobile devices
+
+---
+
+## 🧠 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React (Vite), Tailwind CSS |
+| Backend | Node.js, Express.js |
+| Database | MongoDB Atlas |
+| Cloud Storage | AWS S3 |
+| Authentication | JWT + bcrypt |
+| Deployment | Netlify (Frontend) & Render (Backend) |
+
+---
